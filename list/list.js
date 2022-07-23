@@ -48,6 +48,10 @@ function toString() {
     return this.dataStore;
 }
 
+// clearing  the list 
+function clear() {
+    dataStore= []
+}
 let names = new List();
 names.append("alex");
 names.append("Rehan");
