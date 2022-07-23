@@ -28,3 +28,9 @@ function clear() {
 function length(){
    return this.top;
 }
+
+let stack = new Stack();
+stack.push("ali");
+stack.push("jibran");
+stack.push("ahmed");
+stack.push("Ahm")
