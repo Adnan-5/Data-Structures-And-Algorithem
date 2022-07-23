@@ -34,10 +34,14 @@ stack.push("ali");
 stack.push("jibran");
 stack.push("ahmed");
 stack.push("Ahm")
+console.log(stack);
 console.log("length" + stack.length); // output 1
 console.log(stack.peek());  // output 2
 let pooped = stack.pop();
 console.log('The poped element is '+ pooped);  // output 3
 console.log(stack.peek()); //  // output 4
 stack.push("adnan")
-s.clear()
+stack.clear()
+console.log("length: " + stack.length());
+stack.push("Imran")  // output 5
+console.log(stack.peek()); // output 6
