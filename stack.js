@@ -40,3 +40,4 @@ let pooped = stack.pop();
 console.log('The poped element is '+ pooped);  // output 3
 console.log(stack.peek()); //  // output 4
 stack.push("adnan")
+s.clear()
