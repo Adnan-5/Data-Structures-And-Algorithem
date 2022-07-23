@@ -28,3 +28,7 @@ function clear() {
 function length(){
    return this.top;
 }
+
+
+
+// Converting the numbers base 2 and base 8
