@@ -40,3 +40,4 @@ return prod
 }
 
 console.log("factorial of 5 is :" + factorial(5));
+console.log("factorial of 10 is large num:" + factorial(10));
