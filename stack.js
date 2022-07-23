@@ -16,3 +16,7 @@ function push(element) {
 function peek() {
     return this.dataStore[this.top-1];
 }
+// removing the element 
+function pop() {
+    return this.dataStore[--this.top];
+}
