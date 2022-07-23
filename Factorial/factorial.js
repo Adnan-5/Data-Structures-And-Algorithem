@@ -16,3 +16,6 @@ function push(element) {
 function peek() {
     return this.dataStore[this.top-1];
 }
+function pop(){
+    return this.dataStore[--this.top];
+}
