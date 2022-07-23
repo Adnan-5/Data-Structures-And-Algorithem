@@ -1,0 +1,10 @@
+There are several problems for which a stack is the perfect data structure needed for the
+solution. In this section, we look at several such problems.
+Base Conversions
+A stack can be used to convert a number from one base to another base. Given a number,
+n, which we want to convert to a base, b, here is the algorithm for performing the
+conversion:
+1. The rightmost digit of n is n % b. Push this digit onto the stack.
+2. Replace n with n / b.
+3. Repeat steps 1 and 2 until n = 0 and there are no significant digits remaining.
+4. Build the converted number string by popping the stack until the stack is empty.
