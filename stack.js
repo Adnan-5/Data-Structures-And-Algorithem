@@ -34,3 +34,4 @@ stack.push("ali");
 stack.push("jibran");
 stack.push("ahmed");
 stack.push("Ahm")
+console.log("length" + stack.length);
