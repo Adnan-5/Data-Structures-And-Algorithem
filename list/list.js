@@ -14,3 +14,8 @@ function List() {
 function length() {
     return this.listSize;
 }
+
+// appending the list 
+function append(element) {
+    this.dataStore[this.listSize++]= element;
+}
