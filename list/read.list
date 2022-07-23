@@ -1,0 +1,4 @@
+:- List is ordered sequence of data.
+:- Each data item is called as an element.
+:- It is also called as Abstract Data Type (ADT).
+:- Elements of list can be of any data type. 
