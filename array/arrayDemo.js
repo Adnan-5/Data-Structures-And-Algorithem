@@ -1,1 +1,1 @@
-var numbers = []; // initialiizing a variable as an array.
+var numbers = []; // Declaring an empety array
