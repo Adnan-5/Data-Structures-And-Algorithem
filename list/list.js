@@ -43,3 +43,15 @@ function remove(element) {
     }
     return false;
 }
+
+function toString() {
+    return this.dataStore;
+}
+
+let names = new List();
+names.append("alex");
+names.append("Rehan");
+names.append("ahmed");
+names.append("jhsud");
+console.log(names);
+console.log(names.toString());
