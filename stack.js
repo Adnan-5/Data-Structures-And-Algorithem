@@ -20,3 +20,6 @@ function peek() {
 function pop() {
     return this.dataStore[--this.top];
 }
+function clear() {
+    this.top = 0;
+}
