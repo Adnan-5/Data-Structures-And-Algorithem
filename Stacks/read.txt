@@ -3,3 +3,12 @@ Stacks
 :- It is ordered collection of items.
 :- It Follows LIFO (last in Fist Out).
 :- The addition of new items or the removal of exisisting takes place at the same end.
+
+
+
+             BACIC OPERATIONS
+     push() -- pushing (storing) an element on the Stacks
+     pop() -- Removing (accessing) an element of the Stack 
+     peek() -- getting the top element of the stack, without removing it 
+     isFull() -- check if the stack is full.
+     isEmpty() -- check if the stack is empty
