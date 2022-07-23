@@ -25,3 +25,6 @@ function clear() {
 }
 
 // factorial fnction goes here
+function factorial(){
+    
+}
