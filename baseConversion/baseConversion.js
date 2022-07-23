@@ -12,7 +12,7 @@ function Stack() {
 function push(element) {
     this.dataStore[this.top++]= element;
 }
-
+//Accession the  top most element in stack
 function peek() {
     return this.dataStore[this.top-1];
 }
