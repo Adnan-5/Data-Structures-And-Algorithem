@@ -23,7 +23,9 @@ function pop(){
 function clear() {
     this.top= 0;
 }
-
+ function length(){
+    return this.top;
+ }
 // factorial fnction goes here
 function factorial(n){
 var stack = new Stack();
@@ -31,10 +33,10 @@ while (n>1) {
     stack.push(n--);
 }
 var prod = 1;
-while (stack.length() > 0) {
+while (stack.length()> 0) {
      prod *= stack.pop(); // product as 5*4*3*2*1
 }
 return prod
 }
 
-console.log("factorial of 5 is :") + fact(99999999999999999999);
+console.log("factorial of 5 is :" + factorial(5));
