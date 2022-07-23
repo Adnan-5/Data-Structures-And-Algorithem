@@ -11,3 +11,6 @@ function List() {
 }
 
 // length of the list
+function length() {
+    return this.listSize;
+}
