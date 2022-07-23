@@ -1,3 +1,5 @@
 Stacks
 
-
+:- It is ordered collection of items.
+:- It Follows LIFO (last in Fist Out).
+:- The addition of new items or the removal of exisisting takes place at the same end.
