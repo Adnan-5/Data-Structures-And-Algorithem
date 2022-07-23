@@ -13,3 +13,4 @@ var isEven = function(x){
     return (x%2 == 0) ? true : false
 }
 var number1 = [1,2,3,4,5,6,7,8,9,10,11,12];
+number1.every(isEven) // returns 1
