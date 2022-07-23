@@ -23,3 +23,8 @@ function pop() {
 function clear() {
     this.top = 0;
 }
+
+// Returning the length of the Stack
+function length(){
+   return this.top;
+}
