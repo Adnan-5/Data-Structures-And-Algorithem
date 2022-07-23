@@ -19,3 +19,15 @@ function length() {
 function append(element) {
     this.dataStore[this.listSize++]= element;
 }
+
+// finding the element 
+
+function find(element) {
+    for (let i = 0; i < this.dataStore; i++) {
+        if(this.dataStore[i]==element){
+            return i;
+        }
+        
+    }
+    return -1;
+}
