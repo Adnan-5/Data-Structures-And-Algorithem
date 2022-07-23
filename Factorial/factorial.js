@@ -23,3 +23,5 @@ function pop(){
 function clear() {
     this.top= 0;
 }
+
+// factorial fnction goes here
