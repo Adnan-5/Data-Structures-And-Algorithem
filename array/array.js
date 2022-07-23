@@ -10,4 +10,5 @@ console.log(numbers);
 var isEven = function(x){
     // return true if x is multiple of 2
     console.log(x);
+    return (x%2 == 0) ? true : false
 }
