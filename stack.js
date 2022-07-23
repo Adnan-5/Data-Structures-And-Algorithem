@@ -7,3 +7,8 @@ function Stack() {
     this.clear = clear;
    this.length = length;
 }
+
+// adding the element   in Stack
+function push(element) {
+    this.dataStore[this.top++]= element;
+}
