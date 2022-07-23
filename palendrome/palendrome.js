@@ -31,5 +31,7 @@ function length(){
 
 // main logic goes here 
 function isPalindrome(word){
-
+   var stack = new Stack();
+   stack.push
+   
 }
