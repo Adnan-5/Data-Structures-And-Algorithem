@@ -21,7 +21,7 @@ function pop() {
     return this.dataStore[--this.top];
 }
 function clear() {
-    this.top = 0;
+    this.top = 0; // Assigning the top most value as 0;
 }
 
 // Returning the length of the Stack
