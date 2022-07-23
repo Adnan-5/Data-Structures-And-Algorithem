@@ -30,6 +30,6 @@ function length(){
 }
 
 // main logic goes here 
-function isPalindrome(){
+function isPalindrome(word){
 
 }
