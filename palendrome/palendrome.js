@@ -28,3 +28,5 @@ function clear() {
 function length(){
    return this.top;
 }
+
+// main logic goes here 
