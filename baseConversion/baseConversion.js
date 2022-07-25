@@ -32,3 +32,15 @@ function length(){
 
 
 // Converting the numbers base 2 and base 8
+function mulBase(num, base) {
+    var s = new Stack();
+    do {
+    s.push(num % base);
+    num = Math.floor(num /= base);
+    } while (num > 0);
+    var converted = "";
+    while (s.length() > 0) {
+    converted += s.pop();
+    }
+    return converted;
+    }
