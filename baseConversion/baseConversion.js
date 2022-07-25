@@ -44,3 +44,5 @@ function mulBase(num, base) {
     }
     return converted;
     }
+    var num = 32;
+    var base = 2;
