@@ -46,3 +46,5 @@ function mulBase(num, base) {
     }
     var num = 32;
     var base = 2;
+    var newNum = mulBase(num, base);
+   console.log(num + " converted to base " + base + " is " + newNum);
