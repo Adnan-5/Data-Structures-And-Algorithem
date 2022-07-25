@@ -44,11 +44,11 @@ function mulBase(num, base) {
     }
     return converted;
     }
-    var num = 32;
+    var num = 49;
     var base = 2;
     var newNum = mulBase(num, base);
    console.log(num + " converted to base " + base + " is " + newNum);
-    num = 125;
+    num = 164;
     base = 8;
     var newNum = mulBase(num, base);
    console.log(num + " converted to base " + base + " is " + newNum);
