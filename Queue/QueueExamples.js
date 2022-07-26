@@ -48,3 +48,21 @@ function Dancer(name, gender) {
     this.name = name;
     this.gender=gender;
 }
+
+function getDancers(males, females) {
+    var names = read("dancers.txt").split("\n");
+    for (var i = 0; i < names.length; ++i) {
+    names[i] = names[i].trim();
+    }
+    for (var i = 0; i < names.length; ++i) {
+    var dancer = names[i].split(" ");
+    var gender = dancer[0];
+    var name = dancer[1];
+    if (gender == "F") {
+    females.enqueue(new Dancer(name, gender));
+    }
+    else {
+    males.enqueue(new Dancer(name, gender));
+    }
+    }
+    }
