@@ -13,3 +13,7 @@ function Queue() {
         function dequeue() {
             return this.dataStore.shift();
         }
+
+        function front() {
+            return this.dataStore[0];
+        }   
