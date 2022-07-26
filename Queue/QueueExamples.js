@@ -43,6 +43,7 @@ function Queue() {
   }
 
 //   Using  Queue Class: Assigning Partners at a Square Dance
+// dancer is stored in a Dancer object
 function Dancer(name, gender) {
     this.name = name;
     this.gender=gender;
