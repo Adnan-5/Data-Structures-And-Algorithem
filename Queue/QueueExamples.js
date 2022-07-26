@@ -43,3 +43,7 @@ function Queue() {
   }
 
 //   Using  Queue Class: Assigning Partners at a Square Dance
+function Dancer(name, gender) {
+    this.name = name;
+    this.gender=gender;
+}
