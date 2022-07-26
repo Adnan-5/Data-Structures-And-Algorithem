@@ -7,3 +7,6 @@ function Queue() {
     this.toString = toString;
     this.empty = empty;
     }
+    function enqueue(element) {
+        this.dataStore.push(element);
+        }
