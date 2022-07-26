@@ -45,9 +45,10 @@ function Queue() {
                 // test programe 
 
                 var q = new Queue();
-q.enqueue("Meredith");
-q.enqueue("Cynthia");
-q.enqueue("Jennifer");
+q.enqueue("Alex");
+q.enqueue("Smith");
+q.enqueue("John");
+q.enqueue("Ahmed")
 
 console.log(q.toString());
 q.dequeue();
