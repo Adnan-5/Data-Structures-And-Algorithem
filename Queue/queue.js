@@ -27,3 +27,11 @@ function Queue() {
             }
             return retStr;
             }
+            function empty() {
+                if (this.dataStore.length == 0) {
+                return true;
+                }
+                else {
+                return false;
+                }
+                }
