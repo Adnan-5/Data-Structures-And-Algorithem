@@ -1,0 +1,9 @@
+A queue is a type of list where data are inserted at the end and are removed from the
+front. Queues are used to store data in the order in which they occur, as opposed to a
+stack, in which the last piece of data entered is the first element used for processing.
+
+Queue Operations
+The two primary operations involving queues are 
+inserting a new element into a queue also called enqueue
+             and 
+removing an element from a queue also called dequeue
