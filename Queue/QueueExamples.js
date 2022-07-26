@@ -79,3 +79,14 @@ function getDancers(males, females) {
         }
 
         // testing
+
+var maleDancers = new Queue();
+var femaleDancers = new Queue();
+getDancers(maleDancers, femaleDancers);
+dance(maleDancers, femaleDancers);
+if (!femaleDancers.empty()) {
+console.log(femaleDancers.front().name + " is waiting to dance.");
+}
+if (!maleDancers.empty()) {
+console.log(maleDancers.front().name + " is waiting to dance.");
+}
