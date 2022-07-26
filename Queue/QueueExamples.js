@@ -66,3 +66,14 @@ function getDancers(males, females) {
     }
     }
     }
+
+    function dance(males, females) {
+        print("The dance partners are: \n");
+        while (!females.empty() && !males.empty()) {
+        person = females.dequeue();
+        putstr("Female dancer is: " + person.name);
+        person = males.dequeue();
+        print(" and the male dancer is: " + person.name);
+        }
+        print();
+        }
