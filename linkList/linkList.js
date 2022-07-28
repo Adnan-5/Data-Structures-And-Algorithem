@@ -31,3 +31,10 @@ function LList() {
                 currNode = currNode.next;
                 }
                 }
+
+                // main program
+var cities = new LList();
+cities.insert("Conway", "head");
+cities.insert("Russellville", "Conway");
+cities.insert("Alma", "Russellville");
+cities.display()
