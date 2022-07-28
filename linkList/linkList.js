@@ -23,7 +23,7 @@ function LList() {
             newNode.next = current.next;
             current.next = newNode;
             }
-
+        //   funct that display the elements of linklist 
             function display() {
                 var currNode = this.head;
                 while (!(currNode.next == null)) {
