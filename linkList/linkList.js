@@ -16,7 +16,7 @@ function LList() {
         }
         return currNode;
         }
-
+// next property is set to a reference to the new node.
         function insert(newElement, item) {
             var newNode = new Node(newElement);
             var current = this.find(item);
