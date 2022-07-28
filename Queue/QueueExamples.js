@@ -50,7 +50,14 @@ function Dancer(name, gender) {
 }
 
 function getDancers(males, females) {
-    var names = read("dancers.txt").split("\n");
+    var names = ['F Allison McMillan','M Frank Opitz','M Mason McMillan',' M Clayton Ruff',
+       ' F Cheryl Ferenback',
+        'M Raymond Williams',
+        'F Jennifer Ingram',
+        'M Bryan Frazer',
+       ' M David Durr',
+        'M Danny Martin',
+        'F Aurora Adney']
     for (var i = 0; i < names.length; ++i) {
     names[i] = names[i].trim();
     }
@@ -71,11 +78,12 @@ function getDancers(males, females) {
         console.log("The dance partners are: \n");
         while (!females.empty() && !males.empty()) {
         person = females.dequeue();
-        putstr("Female dancer is: " + person.name);
+        console.log("Female dancer is: " + person.name);
+        // putstr("Female dancer is: " + person.name);
         person = males.dequeue();
         console.log(" and the male dancer is: " + person.name);
         }
-        print();
+        console.log();
         }
 
         // testing
