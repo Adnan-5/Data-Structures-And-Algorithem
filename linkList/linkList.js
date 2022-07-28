@@ -1,4 +1,4 @@
-
+// Here is the definition for the constructor fun 
 function LList() {
     this.head = new Node("head");
     this.find = find;
