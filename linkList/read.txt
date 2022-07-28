@@ -1,3 +1,9 @@
 A linked list is a collection of objects called nodes. Each node is linked to a successor
 node in the list using an object reference. 
 The reference to another node is called a link.
+
+             An Object-Based Linked List Design
+Our design of a linked list will involve creating two classes. We’ll create a Node class for
+adding nodes to a linked list, and we’ll create a LinkedList class, which will provide
+functions for inserting nodes, removing nodes, displaying a list, and other housekeeping
+functions.
