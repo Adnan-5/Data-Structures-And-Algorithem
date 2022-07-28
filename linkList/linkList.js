@@ -23,3 +23,11 @@ function LList() {
             newNode.next = current.next;
             current.next = newNode;
             }
+
+            function display() {
+                var currNode = this.head;
+                while (!(currNode.next == null)) {
+                print(currNode.next.element);
+                currNode = currNode.next;
+                }
+                }
