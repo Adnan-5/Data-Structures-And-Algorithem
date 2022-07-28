@@ -6,3 +6,7 @@ function LList() {
     this.remove = remove;
     this.display = display;
     }
+
+    //inserting new node 
+    // the linked list looking for the specified data
+    
