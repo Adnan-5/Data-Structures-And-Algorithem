@@ -9,4 +9,10 @@ function LList() {
 
     //inserting new node 
     // the linked list looking for the specified data
-    
+    function find(item) {
+        var currNode = this.head;
+        while (currNode.element != item) {
+        currNode = currNode.next;
+        }
+        return currNode;
+        }
