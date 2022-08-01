@@ -22,3 +22,12 @@ function Dictionary() {
     }
 
       // code testing goes here
+
+      var pbook = new Dictionary();
+pbook.add("Asad","111");
+pbook.add("Addi", "123");
+pbook.add("Kashif", "124");
+pbook.add("asad", "101");
+pbook.showAll();
+console.log("David's extension: " + pbook.find("David"));
+pbook.remove("David");
