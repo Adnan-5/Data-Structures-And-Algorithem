@@ -4,3 +4,7 @@ When you look for a phone
 number, you first search for the name, and when you find the name, the phone number
 is found right next to the name. The key is the element you use to perform a search, and
 the value is the result of the search.
+                THE DIRECTORY CLASS
+     The basis for the Directory class rather than the object class.
+     JavaScript can't sort the properties of an object. 
+     EveryThing in JavaScript is an object, so an array is an Object.           
