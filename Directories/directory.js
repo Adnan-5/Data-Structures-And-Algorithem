@@ -6,3 +6,6 @@ function Directory() {
     this.remove = remove;
     this.showAll = showAll;
 }
+function add(key, value) {
+    this.datastore[key] = value;
+    }
