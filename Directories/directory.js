@@ -9,3 +9,6 @@ function Directory() {
 function add(key, value) {
     this.datastore[key] = value;
     }
+    function find(key) {
+        return this.datastore[key];
+        }  
