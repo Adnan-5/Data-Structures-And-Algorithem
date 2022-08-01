@@ -12,3 +12,6 @@ function add(key, value) {
     function find(key) {
         return this.datastore[key];
         }  
+   function remove(key){
+    delete this.datastore[key];
+   }     
